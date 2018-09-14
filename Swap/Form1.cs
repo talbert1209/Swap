@@ -54,7 +54,7 @@ namespace Swap
 
         private void Talk_Click(object sender, EventArgs e)
         {
-            lloyd.TellMe("Hi", lucinda);
+            lloyd.SpeakTo(lucinda, "What's up");
         }
     }
 }
