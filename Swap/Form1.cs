@@ -51,5 +51,10 @@ namespace Swap
                 lucinda = elephantSaver;
             }
         }
+
+        private void Talk_Click(object sender, EventArgs e)
+        {
+            lloyd.TellMe("Hi", lucinda);
+        }
     }
 }

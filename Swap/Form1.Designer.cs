@@ -31,6 +31,7 @@
             this.Lloyd = new System.Windows.Forms.Button();
             this.Lucinda = new System.Windows.Forms.Button();
             this.Swap = new System.Windows.Forms.Button();
+            this.Talk = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lloyd
@@ -45,7 +46,7 @@
             // 
             // Lucinda
             // 
-            this.Lucinda.Location = new System.Drawing.Point(26, 63);
+            this.Lucinda.Location = new System.Drawing.Point(26, 61);
             this.Lucinda.Name = "Lucinda";
             this.Lucinda.Size = new System.Drawing.Size(134, 39);
             this.Lucinda.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // Swap
             // 
-            this.Swap.Location = new System.Drawing.Point(26, 114);
+            this.Swap.Location = new System.Drawing.Point(26, 110);
             this.Swap.Name = "Swap";
             this.Swap.Size = new System.Drawing.Size(134, 39);
             this.Swap.TabIndex = 2;
@@ -63,11 +64,22 @@
             this.Swap.UseVisualStyleBackColor = true;
             this.Swap.Click += new System.EventHandler(this.Swap_Click);
             // 
+            // Talk
+            // 
+            this.Talk.Location = new System.Drawing.Point(26, 159);
+            this.Talk.Name = "Talk";
+            this.Talk.Size = new System.Drawing.Size(134, 39);
+            this.Talk.TabIndex = 3;
+            this.Talk.Text = "Talk";
+            this.Talk.UseVisualStyleBackColor = true;
+            this.Talk.Click += new System.EventHandler(this.Talk_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(182, 165);
+            this.ClientSize = new System.Drawing.Size(182, 220);
+            this.Controls.Add(this.Talk);
             this.Controls.Add(this.Swap);
             this.Controls.Add(this.Lucinda);
             this.Controls.Add(this.Lloyd);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Button Lloyd;
         private System.Windows.Forms.Button Lucinda;
         private System.Windows.Forms.Button Swap;
+        private System.Windows.Forms.Button Talk;
     }
 }
 
